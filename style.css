@@ -15,3 +15,28 @@ body{
     font-weight: 600;
     color: #000;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav ul{
+    display: flex;
+    gap: 0.5 rem;
+    list-style: none;
+}
+
+.default-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.default-flex h2{
+    flex-basis: 100%;
+}
+
+.default-flex article{
+    flex-basis: 33%;
+    min-width: 300px;
+}
