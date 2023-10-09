@@ -30,6 +30,7 @@ header nav ul{
 .default-flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .default-flex h2{
@@ -39,4 +40,8 @@ header nav ul{
 .default-flex article{
     flex-basis: 33%;
     min-width: 300px;
+}
+
+.default-flex article img{
+    width: 100%;
 }
